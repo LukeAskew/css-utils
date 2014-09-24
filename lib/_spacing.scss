@@ -1,0 +1,46 @@
+// A little less-than-optimal in order to work with LibSass
+// Values derived from http://modularscale.com/scale/?px1=16&px2=&ra1=1.618&ra2=0
+$properties: margin padding;
+$props: m p;
+$directions: top right bottom left;
+$dirs: t r b l;
+
+@for $direction from 0 to length($directions) {
+	@for $property from 0 to length($properties) {
+
+		$p: nth($props, $property + 1);
+		$d: nth($dirs, $direction + 1);
+		$selector: $p + $d;
+
+		$property-property: nth($properties, $property + 1);
+		$property-direction: nth($directions, $direction + 1);
+		$property: $property-property + "-" + $property-direction;
+
+
+		.#{$selector}-0 {
+			#{$property}: 0;
+		}
+		.#{$selector}-xxs {
+			#{$property}: 0.146em;
+		}
+		.#{$selector}-xs {
+			#{$property}: 0.236em;
+		}
+		.#{$selector}-s {
+			#{$property}: 0.618em;
+		}
+		.#{$selector} {
+			#{$property}: 1em;
+		}
+		.#{$selector}-l {
+			#{$property}: 1.618em;
+		}
+		.#{$selector}-xl {
+			#{$property}: 4.236em;
+		}
+		.#{$selector}-xxl {
+			#{$property}: 6.854em;
+		}
+
+	}
+}

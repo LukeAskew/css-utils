@@ -1,0 +1,62 @@
+.ta,
+.ta-l {
+	text-align: left !important;
+}
+
+.ta-c {
+	text-align: center !important;
+}
+
+.ta-r {
+	text-align: right !important;
+}
+
+.ta-j {
+	text-align: justify !important;
+}
+
+.c-i {
+	color: inherit !important;
+}
+
+.kern {
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern" 1;
+	font-kerning: normal;
+}
+
+.whs-nw {
+	white-space: nowrap !important;
+}
+
+.truncate {
+	max-width: 100%;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+	word-wrap: normal !important;
+}
+
+.fw-200 {
+	font-weight: 200 !important;
+}
+
+.fw-400 {
+	font-weight: 400 !important;
+}
+
+.fw-700 {
+	font-weight: 700 !important;
+}
+
+.fs-i {
+	font-style: italic !important;
+}
+
+.tt-u {
+	text-transform: uppercase !important;
+}
+
+.wfsm {
+	-webkit-font-smoothing: antialiased;
+}
