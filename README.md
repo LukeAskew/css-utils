@@ -1,12 +1,8 @@
 # CSS Utility Classes
 ---
 
-> A library of stylesheet utility classes, based on Emmet short-hand
+A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classes/) - based on the [Emmet](http://emmet.io) shorthand conventions - that aid in [object-oriented](http://appendto.com/2014/04/oocss/) CSS development.
 
-## Overview
-
-OOCSSS. Faster.
-Single responsiblity princple
 
 ## The Classes
 
