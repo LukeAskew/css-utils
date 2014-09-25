@@ -2,66 +2,67 @@
 
 A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classes/) - based on [Emmet](http://emmet.io) shorthand conventions - to aid in [object-oriented](http://appendto.com/2014/04/oocss/) CSS development.
 
-
 ## The Classes
 
 ### Display
 
 Selector | Responsibility
 --- | ---
-`.d-b`|display block
-`.d-i`|display inline
-`.d-ib`|display inline-block
-`.d-tb`|display table
-`.d-tbc`|display table-cell
-`.d-tbr`|display table-row
-`.vh`| visually hidden, but available for screen readers
+`.d-b` | display block
+`.d-i` | display inline
+`.d-ib` | display inline-block
+`.d-tb` | display table
+`.d-tbc` | display table-cell
+`.d-tbr` | display table-row
+`.vh` | visually hidden, but available for screen readers
 
 ### Floats
 
 Selector | Responsibility
 --- | ---
-`.fl-l`|float left
-`.fl-r`|float right
-`.fl-n`|float none
-`.cl-b`|clear both
-`.cl-l`|clear left
-`.cl-r`|clear right
-`.cf`|clear fix (contain floats)
+`.fl-l` | float left
+`.fl-r` | float right
+`.fl-n` | float none
+`.cl-b` | clear both
+`.cl-l` | clear left
+`.cl-r` | clear right
+`.cf` | clear fix (contain floats)
 
 ### Media
 
 Selector | Responsibility
 --- | ---
-`.rwd-img`|responsive image (max-width: 100%)
-`.rwd-img-st`|stretched responsive image (width: 100%)
-`.intrinsic`|intrinsic ration wrapper; deafult 16:9 ratio
+`.rwd-img` | responsive image (max-width: 100%)
+`.rwd-img-st` | stretched responsive image (width: 100%)
+`.intrinsic` | intrinsic ratio wrapper; default 16:9 ratio
 
 ### Position
 
 Selector | Responsibility
 --- | ---
-`.pos-r`|position relative
-`.pos-s`|position static
-`.pos-a`|position absolute
-`.pos-f`|position fixed
+`.pos-r` | position relative
+`.pos-s` | position static
+`.pos-a` | position absolute
+`.pos-f` | position fixed
 
 ### Spacing
 
 Selector | Responsibility
 --- | ---
-`.{p/m}-0`|remove all padding/margin
-`.{p/m}{t/r/b/l}-{xxs/xs/s/l/xl/xxl}`|apply padding/margin in a given direction (top/right/bottom/l) in a given increment.
+`.{p/m}{t/r/b/l}-{xxs/xs/s/l/xl/xxl}` | apply padding/margin in a given direction (top/right/bottom/l) in a given increment.
+`.{p/m}-0` | remove all padding/margin
 
-Increment | Value
+Increment | Value*
 --- | ---
-`xxs`|0.146em
-`xs`|0.236em
-`s`|0.618em
-(none)|1em
-`l`|1.618em
-`xl`|4.236em
-`xxl`|6.854em
+`xxs` | 0.146em
+`xs` | 0.236em
+`s` | 0.618em
+(none) | 1em
+`l` | 1.618em
+`xl`| 4.236em
+`xxl` | 6.854em
+
+*values derived from [golden ratio](http://modularscale.com/scale/?px1=16&px2=&ra1=1.618&ra2=0)
 
 Examples:
 
@@ -79,26 +80,24 @@ Examples:
 </div> 
 ```
 
-
-
 ### Text
 
 Selector | Responsibility
 --- | ---
-`.ta-l`|text align left
-`.ta-c`|text align center
-`.ta-r`|text align right
-`.ta-j`|text align justify
-`.c-i`|inherit ancestor text color
-`.kern`|enable font kerning
-`.whs-nw`|prevent wrapping on whitespace
-`.truncate`|limit text to a single line, truncating with an ellipsis
-`.fw-200`|font weight 200 (light)
-`.fw-400`|font weight 400 (normal)
-`.fw-700`|font weight 700 (bold)
-`.fs-i`|italic
-`.tt-u`|uppercase
-`.wfsm`|font anti-aliasing
+`.ta-l` | text align left
+`.ta-c` | text align center
+`.ta-r` | text align right
+`.ta-j` | text align justify
+`.c-i` | inherit ancestor text color
+`.kern` | enable font kerning
+`.whs-nw` | prevent wrapping on whitespace
+`.truncate` | limit text to a single line, truncating with an ellipsis
+`.fw-200` | font weight 200 (light)
+`.fw-400` | font weight 400 (normal)
+`.fw-700` | font weight 700 (bold)
+`.fs-i` | italic
+`.tt-u` | uppercase
+`.wfsm` | font anti-aliasing
 
 ### Vertical Alignment
 
