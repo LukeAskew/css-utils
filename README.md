@@ -49,7 +49,7 @@ Selector | Responsibility
 
 Selector | Responsibility
 --- | ---
-`.{p/m}{t/r/b/l}-{xxs/xs/s/l/xl/xxl}` | apply padding/margin in a given direction (top/right/bottom/l) in a given increment.
+`.{p/m}{t/r/b/l}-{xxs/xs/s/l/xl/xxl}` | apply padding/margin in a given direction (top/right/bottom/left) in a given increment.
 `.{p/m}-0` | remove all padding/margin
 
 Increment | Value*
