@@ -1,4 +1,4 @@
-.d, .d-b {
+.d-b {
   display: block !important; }
 
 .d-i {
@@ -27,7 +27,7 @@
   position: absolute;
   width: 1px; }
 
-.fl, .fl-l {
+.fl-l {
   float: left !important; }
 
 .fl-r {
@@ -36,7 +36,7 @@
 .fl-n {
   float: none !important; }
 
-.cl, .cl-b {
+.cl-b {
   clear: both !important; }
 
 .cl-n {
@@ -78,7 +78,7 @@
     width: 100% !important;
     height: 100% !important; }
 
-.pos, .pos-r {
+.pos-r {
   position: relative !important; }
 
 .pos-s {
@@ -283,7 +283,7 @@
 .pl-xxl {
   padding-left: 6.854em; }
 
-.ta, .ta-l {
+.ta-l {
   text-align: left !important; }
 
 .ta-c {
@@ -331,7 +331,7 @@
 .wfsm {
   -webkit-font-smoothing: antialiased; }
 
-.va, .va-t {
+.va-t {
   vertical-align: top !important; }
 
 .va-m {

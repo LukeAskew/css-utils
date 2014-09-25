@@ -9,7 +9,7 @@ A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classe
 
 Selector | Responsibility
 --- | ---
-`.d` `.d-b`|display block
+`.d-b`|display block
 `.d-i`|display inline
 `.d-ib`|display inline-block
 `.d-tb`|display table
@@ -21,10 +21,10 @@ Selector | Responsibility
 
 Selector | Responsibility
 --- | ---
-`.fl` `.fl-l`|float left
+`.fl-l`|float left
 `.fl-r`|float right
 `.fl-n`|float none
-`.cl` `.cl-b`|clear both
+`.cl-b`|clear both
 `.cl-l`|clear left
 `.cl-r`|clear right
 `.cf`|clear fix (contain floats)
@@ -41,7 +41,7 @@ Selector | Responsibility
 
 Selector | Responsibility
 --- | ---
-`.pos` `.pos-r`|position relative
+`.pos-r`|position relative
 `.pos-s`|position static
 `.pos-a`|position absolute
 `.pos-f`|position fixed
@@ -85,7 +85,7 @@ Examples:
 
 Selector | Responsibility
 --- | ---
-`.ta` `.ta-l`|text align left
+`.ta-l`|text align left
 `.ta-c`|text align center
 `.ta-r`|text align right
 `.ta-j`|text align justify
@@ -104,7 +104,7 @@ Selector | Responsibility
 
 Selector | Responsibility
 --- | ---
-`.va` `.va-t`|align to top
+`.va-t`|align to top
 `.va-m`|align to middle
 `.va-b`|align to bottom
 
