@@ -92,9 +92,9 @@ Selector | Responsibility
 `.kern` | enable font kerning
 `.whs-nw` | prevent wrapping on whitespace
 `.truncate` | limit text to a single line, truncating with an ellipsis
-`.fw-200` | font weight 200 (light)
-`.fw-400` | font weight 400 (normal)
-`.fw-700` | font weight 700 (bold)
+`.fw-l` | font weight light (200)
+`.fw-n` | font weight normal (400)
+`.fw-b` | font weight bold (700)
 `.fs-i` | italic
 `.tt-u` | uppercase
 `.wfsm` | font anti-aliasing
