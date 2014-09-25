@@ -283,6 +283,12 @@
 .pl-xxl {
   padding-left: 6.854em; }
 
+.ml-a {
+  margin-left: auto; }
+
+.mr-a {
+  margin-right: auto; }
+
 .ta-l {
   text-align: left !important; }
 
@@ -313,13 +319,13 @@
   white-space: nowrap !important;
   word-wrap: normal !important; }
 
-.fw-200 {
+.fw-l {
   font-weight: 200 !important; }
 
-.fw-400 {
+.fw-n {
   font-weight: 400 !important; }
 
-.fw-700 {
+.fw-b {
   font-weight: 700 !important; }
 
 .fs-i {

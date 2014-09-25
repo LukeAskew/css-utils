@@ -1,6 +1,6 @@
 {
   "name": "css-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Object-oriented CSS utility classes for rapid website development",
   "main": "utils.scss",
   "scripts": {
