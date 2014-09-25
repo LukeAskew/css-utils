@@ -1,6 +1,6 @@
 # CSS Utility Classes [![Build Status](https://travis-ci.org/LukeAskew/css-utils.svg?branch=master)](https://travis-ci.org/LukeAskew/css-utils)
 
-A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classes/) - based on [Emmet](http://emmet.io) shorthand conventions - to aid in [object-oriented](http://appendto.com/2014/04/oocss/) CSS development.
+A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classes/) - based on [Emmet](http://docs.emmet.io/cheat-sheet/) shorthand conventions - to aid in [object-oriented](http://appendto.com/2014/04/oocss/) CSS development.
 
 ## The Classes
 
