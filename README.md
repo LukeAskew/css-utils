@@ -2,6 +2,14 @@
 
 A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classes/) - based on [Emmet](http://docs.emmet.io/cheat-sheet/) shorthand conventions - to aid in [object-oriented](http://appendto.com/2014/04/oocss/) CSS development.
 
+## Install
+
+You can [download the repo](https://github.com/LukeAskew/css-utils/archive/master.zip), or install via [Bower](http://bower.io/):
+
+```
+$ bower install css-utils --save-dev
+```
+
 ## The Classes
 
 ### Display
