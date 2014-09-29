@@ -89,6 +89,13 @@ Examples:
 </div> 
 ```
 
+The spacing scale and step progression are configurable. Override these defaults in your own Sass:
+
+```
+$scale: 1.618; // golden ratio
+$steps: -4, -3, -1, 0, 1, 3, 4; // xxs - xxl
+```
+
 ### Text
 
 Selector | Responsibility
