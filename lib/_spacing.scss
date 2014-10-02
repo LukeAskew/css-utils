@@ -63,8 +63,8 @@ $steps: -4, -3, -1, 0, 1, 3, 4 !default;
 
 
 // util builder
-@for $direction from 1 to length($directions) {
-	@for $property from 1 to length($properties) {
+@for $direction from 1 to length($directions) + 1 {
+	@for $property from 1 to length($properties) + 1 {
 
 		$p: nth($props, $property);
 		$d: nth($dirs, $direction);
