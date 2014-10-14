@@ -76,28 +76,28 @@ $steps: -4, -3, -1, 0, 1, 3, 4 !default;
 
 
 		.#{$selector}-0 {
-			#{$property}: 0;
+			#{$property}: 0 !important;
 		}
 		.#{$selector}-xxs {
-			#{$property}: modular(1em, nth($steps, 1));
+			#{$property}: modular(1em, nth($steps, 1)) !important;
 		}
 		.#{$selector}-xs {
-			#{$property}: modular(1em, nth($steps, 2));
+			#{$property}: modular(1em, nth($steps, 2)) !important;
 		}
 		.#{$selector}-s {
-			#{$property}: modular(1em, nth($steps, 3));
+			#{$property}: modular(1em, nth($steps, 3)) !important;
 		}
 		.#{$selector} {
-			#{$property}: modular(1em, nth($steps, 4));
+			#{$property}: modular(1em, nth($steps, 4)) !important;
 		}
 		.#{$selector}-l {
-			#{$property}: modular(1em, nth($steps, 5));
+			#{$property}: modular(1em, nth($steps, 5)) !important;
 		}
 		.#{$selector}-xl {
-			#{$property}: modular(1em, nth($steps, 6));
+			#{$property}: modular(1em, nth($steps, 6)) !important;
 		}
 		.#{$selector}-xxl {
-			#{$property}: modular(1em, nth($steps, 7));
+			#{$property}: modular(1em, nth($steps, 7)) !important;
 		}
 
 	}
