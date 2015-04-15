@@ -78,22 +78,32 @@ Examples:
 ```markup
 <div class="mt-xl">
 	<!-- 4.236em top margin -->
-</div> 
+</div>
 
 <div class="pl-s">
 	<!-- 0.618em left padding -->
-</div> 
+</div>
 
 <div class="mb">
 	<!-- 1em bottom margin -->
-</div> 
+</div>
 ```
 
-The spacing scale and step progression are configurable. Override these defaults in your own Sass:
+The spacing scale and step progression are configurable. Set these values in your own Sass, before including the css-utils lib:
 
-```
-$scale: 1.618; // golden ratio
-$steps: -4, -3, -1, 0, 1, 3, 4; // xxs - xxl
+```sass
+// default values
+$util-ratio: 1.618;
+$util-base: 1em;
+$util-spacing: (
+	xxs: -4,
+	xs: -3,
+	s: -1,
+	base: 0,
+	l: 1,
+	xl: 3,
+	xxl: 4
+);
 ```
 
 ### Text

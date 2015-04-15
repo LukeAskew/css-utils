@@ -66,12 +66,12 @@
   width: 100%;
   height: auto; }
 
-.instrinsic {
+.intrinsic {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   text-align: center; }
-  .instrinsic div, .instrinsic embed, .instrinsic object, .instrinsic iframe {
+  .intrinsic div, .intrinsic embed, .intrinsic object, .intrinsic iframe {
     position: absolute !important;
     top: 0;
     left: 0;
@@ -284,10 +284,10 @@
   padding-left: 6.85353em; }
 
 .ml-a {
-  margin-left: auto; }
+  margin-left: auto !important; }
 
 .mr-a {
-  margin-right: auto; }
+  margin-right: auto !important; }
 
 .ta-l {
   text-align: left !important; }
