@@ -28,7 +28,7 @@ Terse OOCSS classes can be a powerful tool for rapid and scalable development. T
 
 You can [download the repo](https://github.com/LukeAskew/css-utils/archive/master.zip), or install via [Bower](http://bower.io/):
 
-```
+```bash
 $ bower install css-utils --save-dev
 ```
 
@@ -97,7 +97,7 @@ Increment | Value*
 
 Examples:
 
-```markup
+```html
 <div class="mt-xl">
 	<!-- 4.236em top margin -->
 </div>
