@@ -18,7 +18,7 @@ $util-spacing: (
 ) !default;
 
 // modular scale, borrowed from Bourbon
-@function modular($value, $increment) {
+@function util-modular($value, $increment) {
 	$v1: nth($value, 1);
 	$v2: nth($value, length($value));
 	$value: $v1;
@@ -81,7 +81,7 @@ $util-spacing: (
 			$className: #{str_slice($property, 1, 1)}#{str_slice($direction, 1, 1)}#{if($step == "base", "", "-" + $step)};
 
 			.#{$className} {
-				#{$property}-#{$direction}: modular($util-base, $value);
+				#{$property}-#{$direction}: util-modular($util-base, $value);
 			}
 
 		}
