@@ -43,6 +43,7 @@ Selector | Responsibility
 `.rwd-img` | responsive image (max-width: 100%)
 `.rwd-img-st` | stretched responsive image (width: 100%)
 `.intrinsic` | intrinsic ratio wrapper; default 16:9 ratio
+`.ir` | image replacement (@mixin included)
 
 ### Position
 
