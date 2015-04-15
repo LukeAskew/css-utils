@@ -2,6 +2,28 @@
 
 A collection of CSS [utility classes](http://davidtheclark.com/on-utility-classes/) - based on [Emmet](http://docs.emmet.io/cheat-sheet/) shorthand conventions - to aid in [object-oriented](http://appendto.com/2014/04/oocss/) CSS development.
 
+## Usage
+
+Terse OOCSS classes can be a powerful tool for rapid and scalable development. They can be used independently, or to augment existing objects.
+
+```html
+<div class="card">
+	<div class="card__photo ta-c">
+		<h3>Business Name</h3>
+		<div class="fz-s">Some City, America</div>
+	</div>
+	<div class="card__cell">
+		<h3 class="mt-xs mb-xxs">John Doe</h3>
+		<div class="fz-s"><span class="fw-b">Member number:</span> 081425</div>
+		<div class="mt mb-l">
+			123 Main St.<br />
+			Columbus, OH 43215
+		</div>
+		<a href="#" class="button">Select Account</a>
+	</div>
+</div>
+```
+
 ## Install
 
 You can [download the repo](https://github.com/LukeAskew/css-utils/archive/master.zip), or install via [Bower](http://bower.io/):
