@@ -13,6 +13,7 @@
 	padding-bottom: 56.25%;
 	height: 0;
 	text-align: center;
+
 	div,
 	embed,
 	object,
@@ -23,4 +24,14 @@
 		width: 100% !important;
 		height: 100% !important;
 	}
+}
+
+@mixin ir {
+	text-indent: 110%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.ir {
+	@include ir;
 }

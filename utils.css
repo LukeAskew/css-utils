@@ -78,6 +78,11 @@
     width: 100% !important;
     height: 100% !important; }
 
+.ir {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden; }
+
 .pos-r {
   position: relative !important; }
 
