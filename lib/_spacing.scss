@@ -73,7 +73,7 @@ $util-spacing: (
 	@each $property in $util-properties {
 
 		.#{str_slice($property, 1, 1)}#{str_slice($direction, 1, 1)}-0 {
-			#{$property}-#{$direction}: 0;
+			#{$property}-#{$direction}: 0 !important;
 		}
 
 		@each $step, $value in $util-spacing {
@@ -81,7 +81,7 @@ $util-spacing: (
 			$className: #{str_slice($property, 1, 1)}#{str_slice($direction, 1, 1)}#{if($step == "base", "", "-" + $step)};
 
 			.#{$className} {
-				#{$property}-#{$direction}: util-modular($util-base, $value);
+				#{$property}-#{$direction}: util-modular($util-base, $value) !important;
 			}
 
 		}
