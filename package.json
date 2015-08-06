@@ -1,5 +1,5 @@
 {
-  "name": "css-utils",
+  "name": "oocss-utils",
   "version": "0.2.2",
   "description": "Object-oriented CSS utility classes for rapid website development",
   "main": "utils.scss",
