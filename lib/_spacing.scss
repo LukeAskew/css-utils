@@ -72,13 +72,13 @@ $util-spacing: (
 @each $direction in $util-directions {
 	@each $property in $util-properties {
 
-		.#{str_slice($property, 1, 1)}#{str_slice($direction, 1, 1)}-0 {
+		.#{unquote(str_slice($property, 1, 1))}#{str_slice($direction, 1, 1)}-0 {
 			#{$property}-#{$direction}: 0 !important;
 		}
 
 		@each $step, $value in $util-spacing {
 
-			$className: #{str_slice($property, 1, 1)}#{str_slice($direction, 1, 1)}#{if($step == "base", "", "-" + $step)};
+			$className: #{unquote(str_slice($property, 1, 1))}#{str_slice($direction, 1, 1)}#{if($step == "base", "", "-" + $step)};
 
 			.#{$className} {
 				#{$property}-#{$direction}: util-modular($util-base, $value) !important;
